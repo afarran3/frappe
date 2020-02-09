@@ -1,3 +1,28 @@
+
+/* Change fonts for Erpnext   *//* Change ERPNext font */
+@font-face {
+  font-family: droid;
+  src: url(/assets/frappe/fonts/DroidKufi-Regular.eot);
+  src:url(/assets/frappe/fonts/DroidKufi-Regular.eot?#iefix) format("embedded-opentype"),url(/assets/frappe/fonts/DroidKufi-Regular.woff2) format("woff2"),url(/assets/frappe/fonts/DroidKufi-Regular.woff) format("woff"),url(/assets/frappe/fonts/DroidKufi-Regular.ttf) format("truetype")
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family:droid,poppins!important
+}
+body {
+  font-size: 14px!important;
+  font-weight: 400!important;
+  font-family: droid,sans-serif
+}
+/* END Change ERPNext font */
+
+
+
 /* required styles */
 
 .leaflet-pane,
