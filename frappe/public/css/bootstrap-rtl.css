@@ -6,18 +6,6 @@
  *   Copyright: Unlicensed Public Domain
  *******************************************************************************/
 
-@font-face{
-  font-family:droid;
-  src:url("/assets/frapp/css/fonts/droid/DroidKufi-Regular.eot") format("embedded-opentype"),
-  url("/assets/frappe/css/fonts/droid/DroidKufi-Regular.woff") format("woff"),
-  url("/assets/frappe/css/fonts/droid/DroidKufi-Regular.ttf") format("truetype");
-  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
-  }
-
-body,h1,h2,h3,h4,h5,h6{
-  font-family:droid,poppins!important
-}
-
 html {
   direction: rtl;
 }
