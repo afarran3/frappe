@@ -5,6 +5,10 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+@font-face{font-family:droid;src:url(/assets/frappe/openaltfonts/DroidKufi-Regular.eot);src:url(/assets/frappe/openaltfonts/DroidKufi-Regular.eot?#iefix) format("embedded-opentype"),url(/assets/frappe/openaltfonts/DroidKufi-Regular.woff2) format("woff2"),url(/assets/frappe/openaltfonts/DroidKufi-Regular.woff) format("woff"),url(/assets/frappe/openaltfonts/DroidKufi-Regular.ttf) format("truetype")}body,h1,h2,h3,h4,h5,h6{font-family:droid,poppins!important}
+body{font-size:14px!important;font-weight:400!important;font-family:droid,sans-serif}
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
