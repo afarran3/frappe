@@ -6,7 +6,7 @@ import Quill from 'quill';
 //--------------------------------------------------------
 
 // specify the fonts you would
-var fonts = ['Arial', 'Courier', 'Garamond', 'Tahoma', 'Times New Roman', 'Verdana', 'Droid Arabic Kufi'];
+var fonts = ['Arial', 'Courier', 'Garamond', 'Tahoma', 'Times New Roman', 'Verdana', 'Droid'];
 // generate code friendly names
 function getFontName(font) {
     return font.toLowerCase().replace(/\s/g, "-");
