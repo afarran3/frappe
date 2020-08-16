@@ -115,6 +115,9 @@ frappe.ui.form.ControlComment = frappe.ui.form.ControlTextEditor.extend({
 			['bold', 'italic', 'underline'],
 			['blockquote', 'code-block'],
 			['link', 'image'],
+			[{ 'direction': "rtl" }],
+			[{ 'align': [] }],
+			[{ 'list': 'ordered' }, { 'list': 'bullet' }],
 			[{ 'list': 'ordered' }, { 'list': 'bullet' }],
 			['clean']
 		];
