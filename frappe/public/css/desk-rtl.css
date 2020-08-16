@@ -112,7 +112,10 @@ ul.tree-children {
   direction: ltr;
 }
 .dropdown-menu {
-  transform: translateX(67%) !important;
+  transform: translateX(63%) !important;
+}
+.navbar-right .dropdown-menu {
+  transform: none !important;
 }
 body[data-route^=Form] .page-title .indicator {
   margin-top: 20px;
@@ -133,6 +136,10 @@ body[data-route^=Form] .page-title .indicator {
   }
 }
 @media (max-width: 767px) {
+  .page-head .page-title h1{
+    padding-right: 0;
+  }
+
   .page-head {
     display: block;
   }
@@ -143,5 +150,9 @@ body[data-route^=Form] .page-title .indicator {
 
   .dropdown-menu {
     transform: translateX(83%) !important;
+  }
+
+  .navbar-right .dropdown-menu {
+    transform: translateX(78%) !important;
   }
 }
