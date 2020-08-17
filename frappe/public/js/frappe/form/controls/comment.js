@@ -118,7 +118,6 @@ frappe.ui.form.ControlComment = frappe.ui.form.ControlTextEditor.extend({
 			[{ 'direction': "rtl" }],
 			[{ 'align': [] }],
 			[{ 'list': 'ordered' }, { 'list': 'bullet' }],
-			[{ 'list': 'ordered' }, { 'list': 'bullet' }],
 			['clean']
 		];
 	},
