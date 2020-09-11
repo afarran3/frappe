@@ -349,3 +349,9 @@ input[type=checkbox]:before {
   position: relative;
   right: 0;
 }
+label {
+  display: block !important;
+}
+.awesomplete {
+  direction: rtl;
+}
