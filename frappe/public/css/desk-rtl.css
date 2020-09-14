@@ -288,10 +288,6 @@ input[type=checkbox]:before {
   margin-left: unset;
 }
 
-.form-group {
-  margin-left: 10px;
-}
-
 .octicon-search {
   transform: scaleX(-1);
 }
@@ -354,4 +350,37 @@ label {
 }
 .awesomplete {
   direction: rtl;
+}
+.filter-list .sort-selector {
+  right: unset;
+  left: 0;
+}
+.tag-groupby-area {
+  right: unset;
+  left: 0;
+  padding: 10px 10px 10px 150px;
+}
+.filter-list .sort-selector button {
+  margin-right: 10px;
+  margin-left: 0;
+}
+.filter-list .tag-filters-area {
+  padding: 10px 10px 0 150px;
+}
+.filter-box .form-group {
+  margin: 0px 0px 7px 0px;
+}
+.groupby-box .row > div[class*="col-sm-"] {
+  margin: 0px 0px 7px 0px;
+  padding: 0px 15px 0px 0px;
+}
+.filter-box .remove-filter {
+  margin-right: 15px;
+  margin-left: 0;
+}
+.filter-box .row > div[class*="col-sm-"] {
+  padding: 0px 15px 0px 0px;
+}
+.form-group.frappe-control.input-max-width {
+    padding: 0px 0px 0px 0px;
 }
