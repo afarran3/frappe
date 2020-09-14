@@ -372,15 +372,16 @@ label {
 }
 .groupby-box .row > div[class*="col-sm-"] {
   margin: 0px 0px 7px 0px;
-  padding: 0px 15px 0px 0px;
+  padding: 0px 15px 0px 0px !important;
 }
 .filter-box .remove-filter {
   margin-right: 15px;
   margin-left: 0;
 }
 .filter-box .row > div[class*="col-sm-"] {
-  padding: 0px 15px 0px 0px;
+  padding: 0px 15px 0px 0px !important;
 }
 .form-group.frappe-control.input-max-width {
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px !important;
 }
+
