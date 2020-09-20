@@ -387,3 +387,11 @@ label {
 .border.print-format-builder-main{
   margin: 0px 160px 0px 0px;
 }
+.dt-cell__resize-handle {
+  right: unset;
+  left: -3px;
+}
+.dt-dropdown {
+  right: unset;
+  left: 10px;
+}
