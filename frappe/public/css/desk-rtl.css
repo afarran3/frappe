@@ -416,4 +416,9 @@ label {
 .form-inner-toolbar {
   text-align: left !important;
 }
-
+.dt-instance-1 .dt-cell:first-child {
+  text-align: center !important;
+}
+.dt-instance-1 .dt-cell{
+  text-align: right !important;
+}
