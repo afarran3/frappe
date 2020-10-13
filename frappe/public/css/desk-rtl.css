@@ -422,3 +422,17 @@ label {
 .dt-instance-1 .dt-cell{
   text-align: right !important;
 }
+.total-page-number.page-number {
+  float: left;
+}
+a.prev-page {
+	padding-left: 0px !important;
+  padding-right: 15px;
+}
+a.next-page {
+	padding-right: 0px !important;
+  padding-left: 15px;
+}
+.col-sm-4.grid-pagination {
+    padding: 0px 0px;
+}
